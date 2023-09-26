@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>link to css</title>
+      <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+  <header>
+    <h1>About me!</h1>
+     </header>
+
+    <p>This is a page just with some stuff about me!</p>
+    <p>My name is Cassie Sleeper,</p>
+    <ul1>
+        <li> I am a freshman on the ENC softball team </li>
+        <li> I am an only child </li>
+        <li> I am from Melrose, MA </li>
+        <li> I was a competitive dancer </li>
+
+        </ul1>
+       
+   <img src="beach.jpg" alt="HTML5 Icon" style="width:260px;height:300px;">
+   <img src="comp.jpg" alt= "comp pic" style="width:305px;height:200px;">
+   <img src="prom-_1.jpg" alt= "prom" style="width:232px;height:300px;">
+   <img src="LCgrad.jpg" alt= "grad" style=width:230px;height:300px;>
+   <img src="seniornight.jpg" alt= "senior night" style= "width: 300px;height:200px;"
+  <footer>
+<nav>
+    <h2>Navigation</h2>
+   
+    <ul>
+      <li> <a href="images/page2.html">Pictures</a> </li>
+      
+    </ul>
+  </nav>
+    </footer>
+ </body>
+
+</html>
+
+//StyleCSS
+body {
+  background-color: pink;
+  color: grey;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  height: 180px;
+  background-color: pink;
+  padding: 10px;
+  text-align: center;
+  font-size: 20px;
+  color: grey;
+}
+
+h1 {
+  float: ;
+  background-color: white;
+  text-align: center;
+  padding: 10px;
+  margin : 70px;
+  font-family:cursive;
+}
+
+h2 {
+
+  background-color: white;
+  text-align: center;
+  padding: 0px;
+  margin : 0px;
+  font-family:cursive;
+}
+
+p {
+  font-size: 25px;
+  float: none;
+  background-color: white;
+  padding: 10px;
+  margin: 10px;
+  font-family: cursive;
+}
+ul1
+  {
+    font-size: 20px;
+  clear:left;
+  float: left;
+  background-color: white;
+  padding: 10px;
+  width: 1100px;
+  font-family: cursive;
+}
+
+nav {
+  clear: both;
+  background: #ccc;
+  padding: 0px;
+  height: 100px;
+}
+
+img { 
+  float: left;
+}
+
+//HTML2
+
+<html>
+  <header>
+    this was supposed to have pictures but it woudn't work
+    </header>
+ <p> <img src="prom-_1.jpg" alt="Prom" style="width:220px;height:300px;">
+ <img src="grad.jpg" alt="grad">
+  </p>
+
+  </html>
